@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* NAVBAR */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 50px;
+    background: linear-gradient(90deg, #5f27cd, #341f97);
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(135deg, #0984e3, #6c5ce7);
+    color: white;
+}
+
+.hero span {
+    color: #ffeaa7;
+}
+
+.hero button {
+    padding: 12px 20px;
+    border: none;
+    background: #fdcb6e;
+    cursor: pointer;
+}
+
+/* SECTIONS */
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.skills-grid {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.skill {
+    padding: 15px 25px;
+    background: #6c5ce7;
+    color: white;
+    border-radius: 8px;
+}
+
+.project-card {
+    margin: 20px auto;
+    max-width: 500px;
+    padding: 20px;
+    background: #f1f2f6;
+    border-radius: 10px;
+}
+
+form input,
+form textarea {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 80%;
+}
+
+form button {
+    padding: 10px 20px;
+    background: #5f27cd;
+    color: white;
+    border: none;
+}
+
+.contact-info {
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #341f97;
+    color: white;
+}

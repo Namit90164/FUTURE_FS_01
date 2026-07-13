@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Namit Parekar | Full Stack Developer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav>
+    <h2>👨‍💻 Namit Parekar</h2>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- HERO -->
+<section id="home" class="hero">
+    <h1>Hello, I'm <span>Namit Parekar</span></h1>
+    <p>Full Stack Web Developer | Intern @ Future Interns</p>
+    <button onclick="scrollToSection('contact')">Hire Me</button>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        I am a passionate web developer currently working as a Full Stack Intern based in Nanded City.
+        I love building responsive and user-friendly websites and web applications.
+        I enjoy solving real-world problems using clean and efficient code.
+        My goal is to continuously improve my development skills and build impactful digital solutions.
+    </p>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">Node.js</div>
+        <div class="skill">Git</div>
+        <div class="skill">GitHub</div>
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project-card">
+        <h3>Personal Portfolio Website</h3>
+        <p>
+            A responsive and modern personal portfolio website built using HTML, CSS, and JavaScript 
+            to showcase my skills, projects, and professional profile.
+        </p>
+    </div>
+
+    <div class="project-card">
+        <h3>Client Lead Management System (Mini CRM)</h3>
+        <p>
+            A fully functional CRM dashboard built using HTML, CSS, and JavaScript that allows users 
+            to add, manage, and track client leads with real-time dashboard updates.
+        </p>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+    <h2>Contact Me</h2>
+    <form onsubmit="sendMessage(event)">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+
+    <div class="contact-info">
+        <p><strong>Email:</strong> namittparekar@gmail.com</p>
+        <p><strong>LinkedIn:</strong> (Add your link here)</p>
+        <p><strong>GitHub:</strong> (Add your link here)</p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Namit Parekar | Full Stack Developer</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
